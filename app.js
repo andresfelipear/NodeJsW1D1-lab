@@ -31,6 +31,15 @@ console.log("filter: "+ fFilter(mySecondArr));
 setTimeout(()=>{console.log("Goodbye")}, 3000);
 
 
+//Employee object
+const Employee = {
+    "name":'',
+    "email":'',
+    "deparment":'',
+    "startDate":''
+}
 
+console.log("Employee: ")
+console.log(Employee)
 
 
