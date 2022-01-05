@@ -1,12 +1,6 @@
 //Exercise 1
+const sum = require('./fsum')
+let result =  sum(2,3)
 
-sum = (...nums)=>{
-    let sum=0;
-    for(let num of nums){
-        sum+=num;
-    }
-    return sum;
-}
-
-
-console.log(sum(2,3,2,5,5,5,5));
+console.log("Exercise 1");
+console.log(result);
