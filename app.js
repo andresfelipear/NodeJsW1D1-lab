@@ -33,13 +33,20 @@ setTimeout(()=>{console.log("Goodbye")}, 3000);
 
 //Employee object
 const Employee = {
-    "name":'',
-    "email":'',
-    "deparment":'',
-    "startDate":''
+    "name":'Carlos',
+    "email":'carlos@car.com',
+    "deparment":'engineer',
+    "startDate":'2022-01-04'
 }
 
+//Person object
+const Person = {
+    "name":Employee.name,
+    "email":Employee.email,
+}
 console.log("Employee: ")
 console.log(Employee)
+console.log("Person: ")
+console.log(Person)
 
 
