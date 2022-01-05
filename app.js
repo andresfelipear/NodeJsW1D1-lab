@@ -27,6 +27,8 @@ console.log("mySecondArr: " +result2);
 console.log("average: "+ avrgMySecond);
 console.log("filter: "+ fFilter(mySecondArr));
 
+//setTimeout
+setTimeout(()=>{console.log("Goodbye")}, 3000);
 
 
 
